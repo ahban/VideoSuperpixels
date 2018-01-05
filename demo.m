@@ -3,7 +3,7 @@ clc
 close all
 
 
-addpath(genpath('.'))
+addpath('src')
 
 sequence_root = 'sequence/test';
 
