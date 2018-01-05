@@ -18,4 +18,10 @@ The implementation of our paper
 ```
 
 
+## Requirements
 
+1. Matlab >= 2015a
+2. Currently we support only Windows x64.
+
+## Contact
+If you have any questions, please email me at `sawpara at 126.com`.
