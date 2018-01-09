@@ -14,7 +14,6 @@
 *.m~
 
 # Compiled MEX binaries (all platforms)
-*.mex*
 
 # Simulink Code Generation
 slprj/
