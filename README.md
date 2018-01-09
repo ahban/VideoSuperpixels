@@ -17,7 +17,7 @@ The implementation of our paper
 }
 ```
 
-If you find my code is useful, we are very happy if you could cite our work.
+If you find my code is useful, we are very happy if you could cite our work or give us a star.
 
 
 ## Requirements
