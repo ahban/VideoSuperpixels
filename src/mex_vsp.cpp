@@ -72,7 +72,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){
 
   
   cv::Mat_<Vec3b> image_1; mat2cv(image_1, frame_ptrs[0], W, H);
-  cv::Mat_<Vec3b> image_2; mat2cv(image_2, frame_ptrs[0], W, H);
+  cv::Mat_<Vec3b> image_2; mat2cv(image_2, frame_ptrs[1], W, H);
 
   int v_x = 10;
   int v_y = 10;
