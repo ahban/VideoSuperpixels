@@ -20,6 +20,10 @@ The implementation of our paper
 If you find my code is useful, we are very happy if you could cite our work or give us a star.
 
 
+## Bug fixing
+
+### 2018-3-20 fix a bug in `mex_vsp.cpp`
+
 ## Requirements
 
 1. Matlab >= 2015a
