@@ -49,6 +49,7 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){
     mexPrintf("\tlabels = mex_vsp(frame_first, frame_second)\n");
     mexPrintf("\tlabels = mex_vsp(frame_first, frame_second, v_s)\n");
     mexPrintf("\tlabels = mex_vsp(frame_first, frame_second, v_x, v_y)\n");
+	mexPrintf("\tlabels = mex_vsp(frame_first, frame_second, v_x, v_y, T)\n");
     return;
   }
 
@@ -92,6 +93,9 @@ void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]){
   }
   if (nrhs >= 4){
     v_y = mxGetPr(prhs[3])[0];
+  }
+  if (nrhs >= 5){
+    T = mxGetPr(prhs[4])[0];
   }
   
   vector<int> L1;
