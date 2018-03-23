@@ -25,7 +25,7 @@
 % OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-function [painted_images, colors ] = paint_colors(labels)
+function [painted_images, colors ] = paint_colors(labels, colors)
 % randome k different colors
 
 if ~iscell(labels)
@@ -48,7 +48,9 @@ end
 
 K = double(max(Ka));
 
-colors = uint8(get_k_different_colors(K));
+if nargin == 1
+  colors = uint8(get_k_different_colors(K));
+end
 
 % painting
 painted_images = cell(N, 1);
