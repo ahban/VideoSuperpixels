@@ -27,13 +27,14 @@ If you find my code is useful, we are very happy if you could cite our work or g
 ## Requirements
 
 1. Matlab >= 2015a
+2. The code have been tested on OpenCV 2.4.10.
 2. Currently we support only Windows x64.
 
 ## Compile
 
 **It is strongly recommand to use the original binaries directly. Please do not try to bring troubles to yourself.**
 
-If you really want to compile the code, please read the script of `compileme.m` .
+If you really want to compile the code, please read the script of `src\compileme.m`.
 
 ## Contact
 If you have any questions, please email me at `sawpara at 126.com`, or create an issue in this repository.
